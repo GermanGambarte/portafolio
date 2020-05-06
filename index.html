@@ -13,9 +13,9 @@
     <header>
         <div class="container">
             <nav class="menu">
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Contactos</a>
+                <a href="#about">Acerca de</a>
+                <a href="#works">Trabajos</a>
+                <a href="#contact">Contactos</a>
             </nav>
 
             <div class="text-container">
@@ -30,6 +30,7 @@
         <section class="about">
             <div class="container">
                 <div class="photo">
+                    <a name="about"></a>
                     <img src="img/Foto.jpg" alt="Germán Gambarte" width="115">
                 </div>
                 <div class="text">
@@ -40,7 +41,7 @@
         </section>
         <section class="works">
             <div class="container">
-                <h3 class="tittle">Trabajos</h3>
+                <h3 class="tittle"><a name="works">Trabajos</a></h3>
                 <div class="work-container">
                     <div class="work">
                         <div class="thumb">
@@ -120,7 +121,7 @@
     <footer>
         <section class="contact">
             <div class="container">
-                <h3 class="tittle">Contacto</h3>
+                <h3 class="tittle"><a name="contact">Contacto</a></h3>
                 <form class="form" action="mailto:info@gmail.com" method="post" enctype="text/plain">
                     <input type="text" placeholder="Nombre" name="tuNombre" required>
                     <input type="email" placeholder="Correo" name="tuCorreo" required>
